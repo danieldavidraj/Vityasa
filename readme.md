@@ -42,6 +42,16 @@ POST https://vityasa.herokuapp.com/cancel
 
 <img src="4.png">
 
+POST https://vityasa.herokuapp.com/cancel
+
+{
+  "slot": 2, "name": "Riker"
+}
+
+{"status":"slot full, unable to save booking for Riker in slot 2"}
+
+<img src="7.png">
+
 ### Question 3
 
 POST https://vityasa.herokuapp.com/plot
