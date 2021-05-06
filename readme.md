@@ -1,5 +1,5 @@
 # Vityasa Internship
-### Question 1
+## Question 1
 POST https://vityasa.herokuapp.com/items
 
 [1, 4, -1, "hello", "world", 0, 10, 7]
@@ -14,7 +14,7 @@ POST https://vityasa.herokuapp.com/items
 
 <img src="1.png">
 
-### Question 2
+## Question 2
 
 POST https://vityasa.herokuapp.com/booking
 
@@ -52,7 +52,17 @@ POST https://vityasa.herokuapp.com/cancel
 
 <img src="7.png">
 
-### Question 3
+POST https://vityasa.herokuapp.com/cancel
+
+{
+  "slot": 2, "name": "Diana"
+}
+
+{ "status":"no booking for the name Diana in slot 2"}
+
+<img src="8.png">
+
+## Question 3
 
 POST https://vityasa.herokuapp.com/plot
 
