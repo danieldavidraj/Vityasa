@@ -30,7 +30,7 @@ GET https://vityasa.herokuapp.com/booking
 
 {'slot': 1, 'name': ['Riker']}{'slot': 2, 'name': ['Diana', 'Riker']}
 
-<img src="3.png">
+<img src="9.png">
 
 POST https://vityasa.herokuapp.com/cancel
 
