@@ -53,3 +53,13 @@ POST https://vityasa.herokuapp.com/plot
 {"status": "accepted"}
 
 <img src="5.png">
+
+POST https://vityasa.herokuapp.com/plot
+
+{
+  "x": 5, "y": 5
+}
+
+{"status": "Success (1, 1) (1, 5) (5, 1) (5, 5)"}
+
+<img src="6.png">
