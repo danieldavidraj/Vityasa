@@ -28,7 +28,7 @@ POST https://vityasa.herokuapp.com/booking
 
 GET https://vityasa.herokuapp.com/booking
 
-{'slot': 1, 'name': ['John', 'Diana']}
+{'slot': 1, 'name': ['Riker']}{'slot': 2, 'name': ['Diana', 'Riker']}
 
 <img src="3.png">
 
