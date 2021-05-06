@@ -15,6 +15,7 @@ POST https://vityasa.herokuapp.com/items
 <img src="1.png">
 
 POST https://vityasa.herokuapp.com/booking
+
 {
   "slot": 1, "name": "John"
 }
@@ -28,3 +29,23 @@ GET https://vityasa.herokuapp.com/booking
 {'slot': 1, 'name': ['John', 'Diana']}
 
 <img src="3.png">
+
+POST https://vityasa.herokuapp.com/cancel
+
+{
+  "slot": 1, "name": "Diana"
+}
+
+{ "status":"canceled booking for Diana in slot 1"}
+
+<img src="4.png">
+
+POST https://vityasa.herokuapp.com/plot
+
+{
+  "x": 1, "y": 1
+}
+
+{"status": "accepted"}
+
+<img src="5.png">
