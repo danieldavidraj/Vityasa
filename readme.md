@@ -14,6 +14,8 @@ POST https://vityasa.herokuapp.com/items
 
 <img src="1.png">
 
+### Question 2
+
 POST https://vityasa.herokuapp.com/booking
 
 {
@@ -39,6 +41,8 @@ POST https://vityasa.herokuapp.com/cancel
 { "status":"canceled booking for Diana in slot 1"}
 
 <img src="4.png">
+
+### Question 3
 
 POST https://vityasa.herokuapp.com/plot
 
