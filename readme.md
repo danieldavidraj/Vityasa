@@ -1,4 +1,4 @@
-# Vityasa Internship
+# Vityasa
 ## Question 1
 POST https://vityasa.herokuapp.com/items
 
